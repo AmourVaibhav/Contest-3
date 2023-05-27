@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Market Data</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Crypto Market Data</h1>
+  <input type="text" id="searchInput" placeholder="Search by name or symbol">
+  <button id="sortMarketCap">Sort by Market Cap</button>
+  <button id="sortPercentageChange">Sort by Percentage Change</button>
+  <table id="cryptoTable">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Price</th>
+          <th>Volume</th>
+          <th>Percentage Change</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead>
+    <tbody id="cryptoTableBody">
+      <!-- Table rows will be dynamically added here -->
+      <tr>
+        <td><img src="./imges/bitcoin.png" alt="Coin 1 Logo" class="coin-image">Bitcoin</td>
+        <td>BTC</td>
+        <td>$20023</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/etherum.png" alt="Coin 2 Logo" class="coin-image">Ehternum</td>
+        <td>ETH</td>
+        <td>$1354.77</td>
+        <td>$9,002,850,028</td>
+        <td>3.48%</td>
+        <td>Mkt Cap:$163,323,147,715</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/tether.png" alt="Coin 2 Logo" class="coin-image">Tether</td>
+        <td>USDT</td>
+        <td>$1.001</td>
+        <td>$33,471,352,657</td>
+        <td>-0.03%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/bnb.png" alt="Coin 2 Logo" class="coin-image">BNB</td>
+        <td>BNB</td>
+        <td>$293.02</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/usd.png" alt="Coin 2 Logo" class="coin-image">USD coin</td>
+        <td>USDC</td>
+        <td>$20023</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/xrp.png" alt="Coin 2 Logo" class="coin-image">XRP</td>
+        <td>XRP</td>
+        <td>$20023</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/binance.png" alt="Coin 2 Logo" class="coin-image">Binance USD</td>
+        <td>BUSD</td>
+        <td>$20023</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <tr>
+        <td><img src="./imges/cardano.png" alt="Coin 2 Logo" class="coin-image">Cardano</td>
+        <td>ADA</td>
+        <td>$20023</td>
+        <td>$28,534,462,145</td>
+        <td>3.79%</td>
+        <td>Mkt Cap:$382,801,405,357</td>
+      </tr>
+      <!-- Add more table rows as needed -->
+    </tbody>
+  </table>
+
+  <script src="./script.js" type="module"></script>
+</body>
+</html>
